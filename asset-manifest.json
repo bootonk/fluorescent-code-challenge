@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/fluorescent-code-challenge/static/css/main.dd9d8a8e.css",
+    "main.css": "/fluorescent-code-challenge/static/css/main.be728aea.css",
     "main.js": "/fluorescent-code-challenge/static/js/main.4a9e3a27.js",
     "static/js/787.61ad1b75.chunk.js": "/fluorescent-code-challenge/static/js/787.61ad1b75.chunk.js",
     "static/media/product-image-2.png": "/fluorescent-code-challenge/static/media/product-image-2.a4103269681568783bfb.png",
@@ -12,12 +12,12 @@
     "static/media/Humanist521BT-Roman.ttf": "/fluorescent-code-challenge/static/media/Humanist521BT-Roman.1123ef9a001d83865a94.ttf",
     "static/media/PlantinStd-Light.otf": "/fluorescent-code-challenge/static/media/PlantinStd-Light.dab1dd4fa37bb975ec90.otf",
     "index.html": "/fluorescent-code-challenge/index.html",
-    "main.dd9d8a8e.css.map": "/fluorescent-code-challenge/static/css/main.dd9d8a8e.css.map",
+    "main.be728aea.css.map": "/fluorescent-code-challenge/static/css/main.be728aea.css.map",
     "main.4a9e3a27.js.map": "/fluorescent-code-challenge/static/js/main.4a9e3a27.js.map",
     "787.61ad1b75.chunk.js.map": "/fluorescent-code-challenge/static/js/787.61ad1b75.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dd9d8a8e.css",
+    "static/css/main.be728aea.css",
     "static/js/main.4a9e3a27.js"
   ]
 }
