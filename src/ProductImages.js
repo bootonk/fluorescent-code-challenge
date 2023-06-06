@@ -46,7 +46,7 @@ function ProductImages() {
         <img
           src={img1}
           alt="Large image of woman facing backwards in Stripe Amo Trousers"
-          className="thumbnail-img"
+          className="main-img"
         />
       </div>
     </div>

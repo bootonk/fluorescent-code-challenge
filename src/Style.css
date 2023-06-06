@@ -1,0 +1,50 @@
+/* Global styling */
+@font-face {
+  font-family: Humanist-521;
+  src: url("./assets/fonts/Humanist-521/Humanist521BT-Roman.ttf")
+    format("truetype");
+}
+
+@font-face {
+  font-family: Plantin STD;
+  src: url("./assets/fonts/Plantin-STD/PlantinStd.otf") format("opentype");
+}
+
+/* Product Page Layout */
+.product-container {
+  display: flex;
+  width: 1400px;
+  margin: 28px;
+}
+
+/* Product Images */
+.product-images {
+  display: flex;
+}
+
+.thumbnail-images {
+  display: flex;
+  flex-direction: column;
+}
+
+.thumbnail-img {
+  width: 78px;
+}
+
+.main-img {
+  width: 720px;
+  margin: 0px 40px;
+}
+
+/* Product Form */
+.product-form {
+  width: 506px;
+}
+.product-form p,
+.product-form button {
+  font-family: "Humanist-521", sans-serif;
+}
+
+.product-form h3 {
+  font-family: "Plantin STD", serif;
+}

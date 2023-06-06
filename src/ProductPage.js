@@ -1,14 +1,13 @@
-import { Fragment } from "react";
 import "./Style.css";
 import ProductImages from "./ProductImages";
 import ProductForm from "./ProductForm";
 
 function ProductPage() {
   return (
-    <Fragment>
+    <div className="product-container">
       <ProductImages />
       <ProductForm />
-    </Fragment>
+    </div>
   );
 }
 
