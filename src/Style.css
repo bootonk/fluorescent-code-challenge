@@ -17,8 +17,15 @@ button {
 /* Product Page Layout */
 .product-container {
   display: flex;
-  width: 1400px;
+  max-width: 1400px;
   margin: 28px;
+}
+
+@media screen and (max-width: 600px) {
+  .product-container {
+    flex-direction: column-reverse;
+    width: 90%;
+  }
 }
 
 /* Product Images */
@@ -33,11 +40,38 @@ button {
 
 .thumbnail-img {
   width: 78px;
+  margin-bottom: 12px;
 }
 
 .main-img {
-  width: 720px;
+  max-width: 720px;
   margin: 0px 40px;
+}
+
+@media screen and (max-width: 600px) {
+  .product-images {
+    flex-direction: column;
+  }
+
+  .thumbnail-images {
+    flex-direction: row;
+    overflow: scroll;
+  }
+
+  .thumbnail-img {
+    margin-right: 4px;
+  }
+
+  .main-img {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 1399px) {
+  .main-img {
+    max-width: 720px;
+    width: 60%;
+  }
 }
 
 /* Product Form */
@@ -99,4 +133,10 @@ button {
   font-weight: bold;
   background: black;
   color: white;
+}
+
+@media screen and (max-width: 600px) {
+  .product-form {
+    width: 100%;
+  }
 }
