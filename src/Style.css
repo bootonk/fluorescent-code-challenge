@@ -82,8 +82,8 @@ button {
   border: 1px solid #c4c4c4;
 }
 
-.product-form .variant-swatches .variant-swatch-container .selected {
-  border-color: black;
+.product-form .variant-swatches .variant-swatch-container.selected {
+  border: 2px solid black;
 }
 
 .product-form .variant-swatches .variant-img {
