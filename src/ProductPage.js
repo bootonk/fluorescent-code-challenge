@@ -1,5 +1,5 @@
 import { Fragment } from "react";
-import "./Styles.css";
+import "./Style.css";
 import ProductImages from "./ProductImages";
 import ProductForm from "./ProductForm";
 
