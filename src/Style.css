@@ -1,0 +1,102 @@
+/* Global styling */
+@font-face {
+  font-family: "Humanist-521";
+  src: url("./assets/fonts/Humanist-521/Humanist521BT-Roman.ttf")
+    format("truetype");
+}
+
+@font-face {
+  font-family: "Plantin STD";
+  src: url("./assets/fonts/Plantin-STD/PlantinStd-Light.otf") format("opentype");
+}
+
+button {
+  border-style: none;
+}
+
+/* Product Page Layout */
+.product-container {
+  display: flex;
+  width: 1400px;
+  margin: 28px;
+}
+
+/* Product Images */
+.product-images {
+  display: flex;
+}
+
+.thumbnail-images {
+  display: flex;
+  flex-direction: column;
+}
+
+.thumbnail-img {
+  width: 78px;
+}
+
+.main-img {
+  width: 720px;
+  margin: 0px 40px;
+}
+
+/* Product Form */
+.product-form {
+  width: 506px;
+}
+.product-form p,
+.product-form button {
+  font-family: "Humanist-521", sans-serif;
+}
+
+.product-form hr {
+  margin: 18px 0px;
+  border-style: solid;
+  border-color: #aaaaaa;
+}
+.product-form h3 {
+  font-family: "Plantin STD", serif;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 110%;
+  margin-top: 40px;
+  margin-bottom: 0px;
+}
+
+.product-form .selected-color {
+  color: #111111;
+  opacity: 0.7;
+}
+
+.product-form .variant-swatches {
+  display: flex;
+}
+
+.product-form .variant-swatches .variant-swatch-container {
+  width: 60px;
+  height: 34px;
+  margin-right: 12px;
+}
+
+.product-form .variant-swatches .variant-swatch-container {
+  border: 1px solid #c4c4c4;
+}
+
+.product-form .variant-swatches .variant-swatch-container .selected {
+  border-color: black;
+}
+
+.product-form .variant-swatches .variant-img {
+  width: 52px;
+  margin: 4px;
+}
+
+.product-form button {
+  width: 100%;
+  height: 48px;
+  margin: 40px 0px;
+  border-radius: 0px;
+  font-weight: bold;
+  background: black;
+  color: white;
+}
